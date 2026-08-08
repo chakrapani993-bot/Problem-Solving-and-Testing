@@ -16,3 +16,10 @@ class Solution {
     }
 }
 
+Input
+accounts =
+[[1,2,3],[3,2,1]]
+Output
+6
+
+
