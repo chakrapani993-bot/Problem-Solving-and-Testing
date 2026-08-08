@@ -1,4 +1,4 @@
-Java Dequeue
+
 import java.util.*;
 
 public class Solution {
@@ -34,6 +34,10 @@ public class Solution {
                 maxUnique = Math.max(maxUnique, map.size());
             }
         }
+
+       input: 6 3
+5 3 5 2 3 2
+    output:3
 
         System.out.println(maxUnique);
         sc.close();
