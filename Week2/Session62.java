@@ -11,3 +11,5 @@ class Solution {
         return ans;
     }
 }
+
+output:[2,3,5,4,1,7]
