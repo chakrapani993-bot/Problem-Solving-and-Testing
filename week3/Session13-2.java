@@ -3,20 +3,19 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<String> list = new ArrayList<>();
 
-        list.add(10);
-        list.add(15);
-        list.add(20);
-        list.add(25);
-        list.add(30);
+        list.add("ram");
+        list.add("sita");
+        list.add("hari");
 
         list.stream()
-            .filter(n -> n % 2 == 0)
+            .map(name -> name.toUpperCase())
             .forEach(System.out::println);
     }
 }
+
 Output
-10
-20
-30
+RAM
+SITA
+HARI
